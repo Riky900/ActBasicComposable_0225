@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder. Hapus file ini dan ganti dengan logo_umy.png / .jpg milik Anda. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:fillColor="#FF1B5E20" android:pathData="M0,0h200v200h-200z" />
+</vector>
