@@ -82,3 +82,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Black
             )
             Spacer(modifier = Modifier.height(16.dp))
+            Image(
+                painter = painterResource(id = R.drawable.foto_profil),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(280.dp)
+                    .clip(CircleShape)
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
+                    .background(color = Color(0xFFE8EAF6)),
+                contentScale = ContentScale.Fit
+            )
+        }
+    }
+}
