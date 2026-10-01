@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder. Hapus file ini dan ganti dengan foto_profil.png / .jpg milik Anda. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="400dp"
+    android:viewportWidth="200"
+    android:viewportHeight="400">
+    <path android:fillColor="#FF80B4D6" android:pathData="M0,0h200v400h-200z" />
+</vector>
