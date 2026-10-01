@@ -25,3 +25,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    // GANTI dengan nama dan NIM Anda sendiri
+    val nama = "Riky Tri Pamungkas"
+    val nim = "ISI_NIM_ANDA"
+
+    Box(modifier = modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = R.drawable.bg_login),
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
