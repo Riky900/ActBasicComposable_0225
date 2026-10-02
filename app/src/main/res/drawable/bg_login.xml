@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Placeholder. Hapus file ini dan ganti dengan bg_login.png / .jpg milik Anda. -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="360dp"
-    android:height="640dp"
-    android:viewportWidth="360"
-    android:viewportHeight="640">
-    <path android:fillColor="#FFD7C4A3" android:pathData="M0,0h360v640h-360z" />
-</vector>
