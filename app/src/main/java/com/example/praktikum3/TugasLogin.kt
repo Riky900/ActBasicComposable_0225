@@ -1,7 +1,5 @@
 package com.example.praktikum3
 
-package com.example.praktikum3
-
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -22,21 +20,25 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
 
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
     // GANTI dengan nama dan NIM Anda sendiri
     val nama = "Riky Tri Pamungkas"
-    val nim = "ISI_NIM_ANDA"
+    val nim = "20240140225"
 
     Box(modifier = modifier.fillMaxSize()) {
         Image(
             painter = painterResource(id = R.drawable.bg_login),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
-            contentScale = ContentScale.Crop
+            contentScale = ContentScale.Crop,
+            alignment = Alignment.Center
         )
         Column(
             modifier = Modifier
@@ -48,12 +50,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 text = "Login",
                 fontSize = 36.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color(0xFF1A237E)
+                fontFamily = FontFamily.Cursive,
+                color = Color.Red
             )
             Text(
                 text = "Ini adalah halaman login,",
                 fontSize = 16.sp,
-                color = Color.White
+                fontFamily = FontFamily.Cursive,
+                color = Color.Yellow
             )
             Spacer(modifier = Modifier.height(80.dp))
             Image(
@@ -67,19 +71,22 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 text = "Nama",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
                 color = Color.Red
             )
             Text(
                 text = nama,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color(0xFF1A237E)
+                fontFamily = FontFamily.Cursive,
+                color = Color.Yellow
             )
             Text(
                 text = nim,
                 fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black
+                fontFamily = FontFamily.Cursive,
+                color = Color.Yellow
             )
             Spacer(modifier = Modifier.height(16.dp))
             Image(
@@ -88,9 +95,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .size(280.dp)
                     .clip(CircleShape)
-                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
-                    .background(color = Color(0xFFE8EAF6)),
-                contentScale = ContentScale.Fit
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape),
+                contentScale = ContentScale.Crop,
+                alignment = Alignment.TopCenter
             )
         }
     }
